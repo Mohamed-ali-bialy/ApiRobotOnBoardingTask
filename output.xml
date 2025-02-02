@@ -1,188 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2 (Python 3.12.8 on win32)" generated="2025-02-02T16:35:56.412148" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2 (Python 3.12.8 on win32)" generated="2025-02-02T16:47:37.361314" rpa="false" schemaversion="5">
 <suite id="s1" name="Api Tests" source="C:\Users\z0052yyt\PycharmProjects\PythonProject\tests\api_tests.robot">
 <test id="s1-t1" name="create and update pet test" line="11">
 <kw name="Generate Random Integer" owner="SwaggerKeywords">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.006123" level="INFO">${random_int} = 83</msg>
+<msg time="2025-02-02T16:47:37.924028" level="INFO">${random_int} = 54</msg>
 <var>${random_int}</var>
 <arg>random.randint(${min}, ${max})</arg>
 <arg>modules=random</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.005467" elapsed="0.000656"/>
+<status status="PASS" start="2025-02-02T16:47:37.923033" elapsed="0.000995"/>
 </kw>
 <return>
 <value>${random_int}</value>
-<status status="PASS" start="2025-02-02T16:35:57.006123" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.924028" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:57.006123" level="INFO">${random_category_id} = 83</msg>
+<msg time="2025-02-02T16:47:37.924028" level="INFO">${random_category_id} = 54</msg>
 <var>${random_category_id}</var>
 <arg>1</arg>
 <arg>100</arg>
-<status status="PASS" start="2025-02-02T16:35:57.004594" elapsed="0.001529"/>
+<status status="PASS" start="2025-02-02T16:47:37.923033" elapsed="0.000995"/>
 </kw>
 <kw name="Generate Random String" owner="String">
-<msg time="2025-02-02T16:35:57.006123" level="INFO">${random_category_name} = PvjmdfmRAh</msg>
+<msg time="2025-02-02T16:47:37.924028" level="INFO">${random_category_name} = XtAnBZWEZl</msg>
 <var>${random_category_name}</var>
 <arg>10</arg>
 <arg>[LETTERS]</arg>
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.006123" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.924028" elapsed="0.000000"/>
 </kw>
 <kw name="Generate Random String" owner="String">
-<msg time="2025-02-02T16:35:57.007263" level="INFO">${random_name} = dZrNKVIw</msg>
+<msg time="2025-02-02T16:47:37.924028" level="INFO">${random_name} = UYmvICRw</msg>
 <var>${random_name}</var>
 <arg>8</arg>
 <arg>[LETTERS]</arg>
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.006123" elapsed="0.001140"/>
+<status status="PASS" start="2025-02-02T16:47:37.924028" elapsed="0.000000"/>
 </kw>
 <kw name="Generate Random Integer" owner="SwaggerKeywords">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.007263" level="INFO">${random_int} = 30</msg>
+<msg time="2025-02-02T16:47:37.925028" level="INFO">${random_int} = 35</msg>
 <var>${random_int}</var>
 <arg>random.randint(${min}, ${max})</arg>
 <arg>modules=random</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.007263" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.925028" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${random_int}</value>
-<status status="PASS" start="2025-02-02T16:35:57.007263" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.925028" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:57.007263" level="INFO">${random_photo_number_1} = 30</msg>
+<msg time="2025-02-02T16:47:37.925028" level="INFO">${random_photo_number_1} = 35</msg>
 <var>${random_photo_number_1}</var>
 <arg>1</arg>
 <arg>100</arg>
-<status status="PASS" start="2025-02-02T16:35:57.007263" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.924028" elapsed="0.001000"/>
 </kw>
 <kw name="Generate Random Integer" owner="SwaggerKeywords">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.008267" level="INFO">${random_int} = 29</msg>
+<msg time="2025-02-02T16:47:37.925028" level="INFO">${random_int} = 23</msg>
 <var>${random_int}</var>
 <arg>random.randint(${min}, ${max})</arg>
 <arg>modules=random</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.008267" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.925028" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${random_int}</value>
-<status status="PASS" start="2025-02-02T16:35:57.008267" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.925028" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:57.008267" level="INFO">${random_photo_number_2} = 29</msg>
+<msg time="2025-02-02T16:47:37.926028" level="INFO">${random_photo_number_2} = 23</msg>
 <var>${random_photo_number_2}</var>
 <arg>1</arg>
 <arg>100</arg>
-<status status="PASS" start="2025-02-02T16:35:57.007263" elapsed="0.001004"/>
+<status status="PASS" start="2025-02-02T16:47:37.925028" elapsed="0.001000"/>
 </kw>
 <kw name="Generate Random Integer" owner="SwaggerKeywords">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.008267" level="INFO">${random_int} = 35</msg>
+<msg time="2025-02-02T16:47:37.926028" level="INFO">${random_int} = 29</msg>
 <var>${random_int}</var>
 <arg>random.randint(${min}, ${max})</arg>
 <arg>modules=random</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.008267" elapsed="0.001001"/>
+<status status="PASS" start="2025-02-02T16:47:37.926028" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${random_int}</value>
-<status status="PASS" start="2025-02-02T16:35:57.009268" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.926028" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:57.009268" level="INFO">${random_tag_id} = 35</msg>
+<msg time="2025-02-02T16:47:37.926028" level="INFO">${random_tag_id} = 29</msg>
 <var>${random_tag_id}</var>
 <arg>1</arg>
 <arg>50</arg>
-<status status="PASS" start="2025-02-02T16:35:57.008267" elapsed="0.001001"/>
+<status status="PASS" start="2025-02-02T16:47:37.926028" elapsed="0.000000"/>
 </kw>
 <kw name="Generate Random String" owner="String">
-<msg time="2025-02-02T16:35:57.009268" level="INFO">${random_tag_name} = hgdAKgZCScSW</msg>
+<msg time="2025-02-02T16:47:37.926028" level="INFO">${random_tag_name} = hcoCRqcumTvu</msg>
 <var>${random_tag_name}</var>
 <arg>12</arg>
 <arg>[LETTERS]</arg>
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.009268" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.926028" elapsed="0.000000"/>
 </kw>
 <kw name="Generate Random String" owner="String">
-<msg time="2025-02-02T16:35:57.009268" level="INFO">${random_status} = WufjsqoPyc</msg>
+<msg time="2025-02-02T16:47:37.926028" level="INFO">${random_status} = NIBrCKNaws</msg>
 <var>${random_status}</var>
 <arg>10</arg>
 <arg>[LETTERS]</arg>
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.009268" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.926028" elapsed="0.000000"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.010265" level="INFO">${PHOTOS_URL} = ["photo/30","photo/29"]</msg>
+<msg time="2025-02-02T16:47:37.927028" level="INFO">${PHOTOS_URL} = ["photo/35","photo/23"]</msg>
 <var>${PHOTOS_URL}</var>
 <arg>["photo/${random_photo_number_1}","photo/${random_photo_number_2}"]</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.009268" elapsed="0.000997"/>
+<status status="PASS" start="2025-02-02T16:47:37.927028" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Random Category ID: ${random_category_id}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.010265" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.927028" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Random Category Name: ${random_category_name}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.010265" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.927028" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Random Name: ${random_name}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.010265" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.927028" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Random Photo Number 1: ${random_photo_number_1}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.010265" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.927028" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Random Photo Number 2: ${random_photo_number_2}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.010265" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.927028" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Random Tag ID: ${random_tag_id}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.010265" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.927028" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Random Tag Name: ${random_tag_name}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.011266" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.928027" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Random Status: ${random_status}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.011266" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.928027" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Photos URL: ${PHOTOS_URL}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.011266" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.928027" elapsed="0.000000"/>
 </kw>
 <kw name="Create a New Pet" owner="SwaggerKeywords">
 <kw name="Create Default Headers" owner="variables">
 <kw name="Create Dictionary" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.012264" level="INFO">${DEFAULT_HEADERS} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
+<msg time="2025-02-02T16:47:37.929027" level="INFO">${DEFAULT_HEADERS} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
 <var>${DEFAULT_HEADERS}</var>
 <arg>accept=application/json</arg>
 <arg>Content-Type=application/json</arg>
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.011266" elapsed="0.000998"/>
+<status status="PASS" start="2025-02-02T16:47:37.928027" elapsed="0.001000"/>
 </kw>
 <return>
 <value>${DEFAULT_HEADERS}</value>
-<status status="PASS" start="2025-02-02T16:35:57.012264" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.929027" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:57.012264" level="INFO">${headers} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
+<msg time="2025-02-02T16:47:37.929027" level="INFO">${headers} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
 <var>${headers}</var>
 <doc>Creates default headers dictionary</doc>
-<status status="PASS" start="2025-02-02T16:35:57.011266" elapsed="0.000998"/>
+<status status="PASS" start="2025-02-02T16:47:37.928027" elapsed="0.001000"/>
 </kw>
 <kw name="Catenate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.012264" level="INFO">${request_body} = {"id": 0, "category": {"id": "83", "name": "PvjmdfmRAh"},"name": "dZrNKVIw", "photoUrls": ["photo/30","photo/29"], "tags": [{"id": 35, "name": "hgdAKgZCScSW"}], "status": "WufjsqoPyc"}</msg>
+<msg time="2025-02-02T16:47:37.929027" level="INFO">${request_body} = {"id": 0, "category": {"id": "54", "name": "XtAnBZWEZl"},"name": "UYmvICRw", "photoUrls": ["photo/35","photo/23"], "tags": [{"id": 29, "name": "hcoCRqcumTvu"}], "status": "NIBrCKNaws"}</msg>
 <var>${request_body}</var>
 <arg>SEPARATOR=</arg>
 <arg>{</arg>
@@ -190,38 +190,38 @@
 <arg>"name": "${NAME}", "photoUrls": ${PHOTOS_URL}, "tags": [{"id": ${TAG_ID}, "name": "${TAG_NAME}"}], "status": "${STATUS}"</arg>
 <arg>}</arg>
 <doc>Catenates the given items together and returns the resulted string.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.012264" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:37.929027" elapsed="0.000000"/>
 </kw>
 <kw name="POST" owner="RequestsLibrary">
-<msg time="2025-02-02T16:35:57.750775" level="INFO">POST Request : url=https://petstore.swagger.io/v2/pet 
+<msg time="2025-02-02T16:47:38.493483" level="INFO">POST Request : url=https://petstore.swagger.io/v2/pet 
  path_url=/v2/pet 
  headers={'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'accept': 'application/json', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '184'} 
- body={"id": 0, "category": {"id": "83", "name": "PvjmdfmRAh"},"name": "dZrNKVIw", "photoUrls": ["photo/30","photo/29"], "tags": [{"id": 35, "name": "hgdAKgZCScSW"}], "status": "WufjsqoPyc"} 
+ body={"id": 0, "category": {"id": "54", "name": "XtAnBZWEZl"},"name": "UYmvICRw", "photoUrls": ["photo/35","photo/23"], "tags": [{"id": 29, "name": "hcoCRqcumTvu"}], "status": "NIBrCKNaws"} 
  </msg>
-<msg time="2025-02-02T16:35:57.750775" level="INFO">POST Response : url=https://petstore.swagger.io/v2/pet 
+<msg time="2025-02-02T16:47:38.493483" level="INFO">POST Response : url=https://petstore.swagger.io/v2/pet 
  status=200, reason=OK 
- headers={'Date': 'Sun, 02 Feb 2025 14:35:57 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'} 
- body={"id":9223372036854775150,"category":{"id":83,"name":"PvjmdfmRAh"},"name":"dZrNKVIw","photoUrls":["photo/30","photo/29"],"tags":[{"id":35,"name":"hgdAKgZCScSW"}],"status":"WufjsqoPyc"} 
+ headers={'Date': 'Sun, 02 Feb 2025 14:47:38 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'} 
+ body={"id":9223372036854775291,"category":{"id":54,"name":"XtAnBZWEZl"},"name":"UYmvICRw","photoUrls":["photo/35","photo/23"],"tags":[{"id":29,"name":"hcoCRqcumTvu"}],"status":"NIBrCKNaws"} 
  </msg>
-<msg time="2025-02-02T16:35:57.750775" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<msg time="2025-02-02T16:47:38.493483" level="INFO">${response} = &lt;Response [200]&gt;</msg>
 <var>${response}</var>
 <arg>${SWAGGER_BASE_URL}/pet</arg>
 <arg>data=${request_body}</arg>
 <arg>headers=${headers}</arg>
 <doc>Sends a POST request.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.012264" elapsed="0.738511"/>
+<status status="PASS" start="2025-02-02T16:47:37.929027" elapsed="0.564456"/>
 </kw>
 <kw name="Status Should Be" owner="RequestsLibrary">
 <arg>${expected_status_code}</arg>
 <arg>${response}</arg>
 <doc>Fails if response status code is different than the expected.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.750775" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.493483" elapsed="0.001000"/>
 </kw>
 <return>
 <value>${response}</value>
-<status status="PASS" start="2025-02-02T16:35:57.750775" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.494483" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:57.751804" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<msg time="2025-02-02T16:47:38.494483" level="INFO">${response} = &lt;Response [200]&gt;</msg>
 <var>${response}</var>
 <arg>${random_category_id}</arg>
 <arg>${random_category_name}</arg>
@@ -231,265 +231,265 @@
 <arg>${random_tag_name}</arg>
 <arg>${random_status}</arg>
 <arg>${expected_status_code}</arg>
-<status status="PASS" start="2025-02-02T16:35:57.011266" elapsed="0.740538"/>
+<status status="PASS" start="2025-02-02T16:47:37.928027" elapsed="0.566456"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${response}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.751804" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.494483" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${response.json()}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.751804" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.494483" elapsed="0.000000"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.752791" level="INFO">${CREATED_PET_ID} = 9223372036854775150</msg>
+<msg time="2025-02-02T16:47:38.495482" level="INFO">${CREATED_PET_ID} = 9223372036854775291</msg>
 <var>${CREATED_PET_ID}</var>
 <arg>${response.json()['id']}</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.751804" elapsed="0.000987"/>
+<status status="PASS" start="2025-02-02T16:47:38.495482" elapsed="0.000000"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.752791" level="INFO">${expected_photos} = ['photo/30', 'photo/29']</msg>
+<msg time="2025-02-02T16:47:38.495482" level="INFO">${expected_photos} = ['photo/35', 'photo/23']</msg>
 <var>${expected_photos}</var>
 <arg>json.loads('''${PHOTOS_URL}''')</arg>
 <arg>json</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.752791" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.495482" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[category][id]</arg>
 <arg>${random_category_id}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.752791" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.495482" elapsed="0.001000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[category][name]</arg>
 <arg>${random_category_name}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.753775" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.496482" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()['name']}</arg>
 <arg>${random_name}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.753775" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.496482" elapsed="0.000000"/>
 </kw>
 <kw name="Lists Should Be Equal" owner="Collections">
 <arg>${response.json()['photoUrls']}</arg>
 <arg>${expected_photos}</arg>
 <doc>Fails if given lists are unequal.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.754776" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.496482" elapsed="0.001000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[tags][0][id]</arg>
 <arg>${random_tag_id}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.754776" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.497482" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[tags][0][name]</arg>
 <arg>${random_tag_name}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.754776" elapsed="0.001082"/>
+<status status="PASS" start="2025-02-02T16:47:38.497482" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[status]</arg>
 <arg>${random_status}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.755858" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.497482" elapsed="0.001000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.755858" level="INFO">Argument types are:
+<msg time="2025-02-02T16:47:38.499482" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;class 'str'&gt;</msg>
 <arg>${response.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.755858" elapsed="0.001042"/>
+<status status="PASS" start="2025-02-02T16:47:38.498482" elapsed="0.001000"/>
 </kw>
 <kw name="Generate Random Integer" owner="SwaggerKeywords">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.756900" level="INFO">${random_int} = 74</msg>
+<msg time="2025-02-02T16:47:38.499482" level="INFO">${random_int} = 29</msg>
 <var>${random_int}</var>
 <arg>random.randint(${min}, ${max})</arg>
 <arg>modules=random</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.756900" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.499482" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${random_int}</value>
-<status status="PASS" start="2025-02-02T16:35:57.756900" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.499482" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:57.756900" level="INFO">${updated_category_id} = 74</msg>
+<msg time="2025-02-02T16:47:38.499482" level="INFO">${updated_category_id} = 29</msg>
 <var>${updated_category_id}</var>
 <arg>1</arg>
 <arg>100</arg>
-<status status="PASS" start="2025-02-02T16:35:57.756900" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.499482" elapsed="0.000000"/>
 </kw>
 <kw name="Generate Random String" owner="String">
-<msg time="2025-02-02T16:35:57.756900" level="INFO">${updated_category_name} = FaNPbChbHg</msg>
+<msg time="2025-02-02T16:47:38.500482" level="INFO">${updated_category_name} = nTCPmQqkqI</msg>
 <var>${updated_category_name}</var>
 <arg>10</arg>
 <arg>[LETTERS]</arg>
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.756900" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.499482" elapsed="0.001000"/>
 </kw>
 <kw name="Generate Random String" owner="String">
-<msg time="2025-02-02T16:35:57.757900" level="INFO">${updated_name} = FwHlCHxJ</msg>
+<msg time="2025-02-02T16:47:38.500482" level="INFO">${updated_name} = RQnfuXbv</msg>
 <var>${updated_name}</var>
 <arg>8</arg>
 <arg>[LETTERS]</arg>
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.756900" elapsed="0.001000"/>
+<status status="PASS" start="2025-02-02T16:47:38.500482" elapsed="0.000000"/>
 </kw>
 <kw name="Generate Random Integer" owner="SwaggerKeywords">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.757900" level="INFO">${random_int} = 16</msg>
+<msg time="2025-02-02T16:47:38.500482" level="INFO">${random_int} = 62</msg>
 <var>${random_int}</var>
 <arg>random.randint(${min}, ${max})</arg>
 <arg>modules=random</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.757900" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.500482" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${random_int}</value>
-<status status="PASS" start="2025-02-02T16:35:57.757900" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.500482" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:57.757900" level="INFO">${updated_photo_number_1} = 16</msg>
+<msg time="2025-02-02T16:47:38.500482" level="INFO">${updated_photo_number_1} = 62</msg>
 <var>${updated_photo_number_1}</var>
 <arg>1</arg>
 <arg>100</arg>
-<status status="PASS" start="2025-02-02T16:35:57.757900" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.500482" elapsed="0.000000"/>
 </kw>
 <kw name="Generate Random Integer" owner="SwaggerKeywords">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.758898" level="INFO">${random_int} = 90</msg>
+<msg time="2025-02-02T16:47:38.501482" level="INFO">${random_int} = 47</msg>
 <var>${random_int}</var>
 <arg>random.randint(${min}, ${max})</arg>
 <arg>modules=random</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.757900" elapsed="0.000998"/>
+<status status="PASS" start="2025-02-02T16:47:38.501482" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${random_int}</value>
-<status status="PASS" start="2025-02-02T16:35:57.758898" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.501482" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:57.758898" level="INFO">${updated_photo_number_2} = 90</msg>
+<msg time="2025-02-02T16:47:38.501482" level="INFO">${updated_photo_number_2} = 47</msg>
 <var>${updated_photo_number_2}</var>
 <arg>1</arg>
 <arg>100</arg>
-<status status="PASS" start="2025-02-02T16:35:57.757900" elapsed="0.000998"/>
+<status status="PASS" start="2025-02-02T16:47:38.501482" elapsed="0.000000"/>
 </kw>
 <kw name="Generate Random Integer" owner="SwaggerKeywords">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.758898" level="INFO">${random_int} = 13</msg>
+<msg time="2025-02-02T16:47:38.502482" level="INFO">${random_int} = 21</msg>
 <var>${random_int}</var>
 <arg>random.randint(${min}, ${max})</arg>
 <arg>modules=random</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.758898" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.501482" elapsed="0.001000"/>
 </kw>
 <return>
 <value>${random_int}</value>
-<status status="PASS" start="2025-02-02T16:35:57.758898" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.502482" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:57.758898" level="INFO">${updated_tag_id} = 13</msg>
+<msg time="2025-02-02T16:47:38.502482" level="INFO">${updated_tag_id} = 21</msg>
 <var>${updated_tag_id}</var>
 <arg>1</arg>
 <arg>50</arg>
-<status status="PASS" start="2025-02-02T16:35:57.758898" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.501482" elapsed="0.001000"/>
 </kw>
 <kw name="Generate Random String" owner="String">
-<msg time="2025-02-02T16:35:57.758898" level="INFO">${updated_tag_name} = PptkLfPGLCfw</msg>
+<msg time="2025-02-02T16:47:38.502482" level="INFO">${updated_tag_name} = eZSWfxrWoNYd</msg>
 <var>${updated_tag_name}</var>
 <arg>12</arg>
 <arg>[LETTERS]</arg>
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.758898" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.502482" elapsed="0.000000"/>
 </kw>
 <kw name="Generate Random String" owner="String">
-<msg time="2025-02-02T16:35:57.758898" level="INFO">${updated_status} = sjGlGTugxD</msg>
+<msg time="2025-02-02T16:47:38.502482" level="INFO">${updated_status} = xplujibFtZ</msg>
 <var>${updated_status}</var>
 <arg>10</arg>
 <arg>[LETTERS]</arg>
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.758898" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.502482" elapsed="0.000000"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.758898" level="INFO">${UPDATED_PHOTOS_URL} = ["photo/16","photo/90"]</msg>
+<msg time="2025-02-02T16:47:38.502482" level="INFO">${UPDATED_PHOTOS_URL} = ["photo/62","photo/47"]</msg>
 <var>${UPDATED_PHOTOS_URL}</var>
 <arg>["photo/${updated_photo_number_1}","photo/${updated_photo_number_2}"]</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.758898" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.502482" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Updated Category ID: ${updated_category_id}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.758898" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.502482" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Updated Category Name: ${updated_category_name}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.760411" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.502482" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Updated Name: ${updated_name}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.760541" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.503482" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Updated Photo Number 1: ${updated_photo_number_1}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.760541" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.503482" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Updated Photo Number 2: ${updated_photo_number_2}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.760541" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.503482" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Updated Tag ID: ${updated_tag_id}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.760541" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.503482" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Updated Tag Name: ${updated_tag_name}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.760541" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.503482" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Updated Status: ${updated_status}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.760541" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.503482" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Updated Photos URL: ${UPDATED_PHOTOS_URL}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.760541" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.503482" elapsed="0.000000"/>
 </kw>
 <kw name="Update Pet" owner="SwaggerKeywords">
 <kw name="Create Default Headers" owner="variables">
 <kw name="Create Dictionary" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.761432" level="INFO">${DEFAULT_HEADERS} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
+<msg time="2025-02-02T16:47:38.504482" level="INFO">${DEFAULT_HEADERS} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
 <var>${DEFAULT_HEADERS}</var>
 <arg>accept=application/json</arg>
 <arg>Content-Type=application/json</arg>
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.761432" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.504482" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${DEFAULT_HEADERS}</value>
-<status status="PASS" start="2025-02-02T16:35:57.761432" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.504482" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:57.761432" level="INFO">${headers} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
+<msg time="2025-02-02T16:47:38.504482" level="INFO">${headers} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
 <var>${headers}</var>
 <doc>Creates default headers dictionary</doc>
-<status status="PASS" start="2025-02-02T16:35:57.761432" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.504482" elapsed="0.000000"/>
 </kw>
 <kw name="Catenate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:57.761432" level="INFO">${request_body} = {"id": 9223372036854775150, "category": {"id": "74", "name": "FaNPbChbHg"},"name": "FwHlCHxJ", "photoUrls": ["photo/16","photo/90"], "tags": [{"id": 13, "name": "PptkLfPGLCfw"}], "status": "sjGlGTugxD...</msg>
+<msg time="2025-02-02T16:47:38.504482" level="INFO">${request_body} = {"id": 9223372036854775291, "category": {"id": "29", "name": "nTCPmQqkqI"},"name": "RQnfuXbv", "photoUrls": ["photo/62","photo/47"], "tags": [{"id": 21, "name": "eZSWfxrWoNYd"}], "status": "xplujibFtZ...</msg>
 <var>${request_body}</var>
 <arg>SEPARATOR=</arg>
 <arg>{</arg>
@@ -497,38 +497,38 @@
 <arg>"name": "${NAME}", "photoUrls": ${PHOTOS_URL}, "tags": [{"id": ${TAG_ID}, "name": "${TAG_NAME}"}], "status": "${STATUS}"</arg>
 <arg>}</arg>
 <doc>Catenates the given items together and returns the resulted string.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.761432" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:38.504482" elapsed="0.000000"/>
 </kw>
 <kw name="PUT" owner="RequestsLibrary">
-<msg time="2025-02-02T16:35:58.324677" level="INFO">PUT Request : url=https://petstore.swagger.io/v2/pet 
+<msg time="2025-02-02T16:47:39.083529" level="INFO">PUT Request : url=https://petstore.swagger.io/v2/pet 
  path_url=/v2/pet 
  headers={'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'accept': 'application/json', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '202'} 
- body={"id": 9223372036854775150, "category": {"id": "74", "name": "FaNPbChbHg"},"name": "FwHlCHxJ", "photoUrls": ["photo/16","photo/90"], "tags": [{"id": 13, "name": "PptkLfPGLCfw"}], "status": "sjGlGTugxD"} 
+ body={"id": 9223372036854775291, "category": {"id": "29", "name": "nTCPmQqkqI"},"name": "RQnfuXbv", "photoUrls": ["photo/62","photo/47"], "tags": [{"id": 21, "name": "eZSWfxrWoNYd"}], "status": "xplujibFtZ"} 
  </msg>
-<msg time="2025-02-02T16:35:58.325215" level="INFO">PUT Response : url=https://petstore.swagger.io/v2/pet 
+<msg time="2025-02-02T16:47:39.083529" level="INFO">PUT Response : url=https://petstore.swagger.io/v2/pet 
  status=200, reason=OK 
- headers={'Date': 'Sun, 02 Feb 2025 14:35:58 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'} 
- body={"id":9223372036854775150,"category":{"id":74,"name":"FaNPbChbHg"},"name":"FwHlCHxJ","photoUrls":["photo/16","photo/90"],"tags":[{"id":13,"name":"PptkLfPGLCfw"}],"status":"sjGlGTugxD"} 
+ headers={'Date': 'Sun, 02 Feb 2025 14:47:39 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'} 
+ body={"id":9223372036854775291,"category":{"id":29,"name":"nTCPmQqkqI"},"name":"RQnfuXbv","photoUrls":["photo/62","photo/47"],"tags":[{"id":21,"name":"eZSWfxrWoNYd"}],"status":"xplujibFtZ"} 
  </msg>
-<msg time="2025-02-02T16:35:58.325215" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<msg time="2025-02-02T16:47:39.083529" level="INFO">${response} = &lt;Response [200]&gt;</msg>
 <var>${response}</var>
 <arg>${SWAGGER_BASE_URL}/pet</arg>
 <arg>data=${request_body}</arg>
 <arg>headers=${headers}</arg>
 <doc>Sends a PUT request.</doc>
-<status status="PASS" start="2025-02-02T16:35:57.761432" elapsed="0.563783"/>
+<status status="PASS" start="2025-02-02T16:47:38.504482" elapsed="0.579047"/>
 </kw>
 <kw name="Status Should Be" owner="RequestsLibrary">
 <arg>${expected_status_code}</arg>
 <arg>${response}</arg>
 <doc>Fails if response status code is different than the expected.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.325215" elapsed="0.000527"/>
+<status status="PASS" start="2025-02-02T16:47:39.083529" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${response}</value>
-<status status="PASS" start="2025-02-02T16:35:58.325742" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.083529" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:58.325742" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<msg time="2025-02-02T16:47:39.084530" level="INFO">${response} = &lt;Response [200]&gt;</msg>
 <var>${response}</var>
 <arg>${CREATED_PET_ID}</arg>
 <arg>${updated_category_id}</arg>
@@ -539,129 +539,129 @@
 <arg>${updated_tag_name}</arg>
 <arg>${updated_status}</arg>
 <arg>${expected_status_code}</arg>
-<status status="PASS" start="2025-02-02T16:35:57.761432" elapsed="0.564310"/>
+<status status="PASS" start="2025-02-02T16:47:38.503482" elapsed="0.581048"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${response}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.325742" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.084530" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${response.json()}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.325742" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.084530" elapsed="0.000000"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:58.326775" level="INFO">${expected_updated_photos} = ['photo/16', 'photo/90']</msg>
+<msg time="2025-02-02T16:47:39.084530" level="INFO">${expected_updated_photos} = ['photo/62', 'photo/47']</msg>
 <var>${expected_updated_photos}</var>
 <arg>json.loads('''${UPDATED_PHOTOS_URL}''')</arg>
 <arg>json</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.325742" elapsed="0.001033"/>
+<status status="PASS" start="2025-02-02T16:47:39.084530" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[category][id]</arg>
 <arg>${updated_category_id}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.326775" elapsed="0.000539"/>
+<status status="PASS" start="2025-02-02T16:47:39.085531" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[category][name]</arg>
 <arg>${updated_category_name}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.327314" elapsed="0.001033"/>
+<status status="PASS" start="2025-02-02T16:47:39.085531" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()['name']}</arg>
 <arg>${updated_name}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.328347" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.085531" elapsed="0.000998"/>
 </kw>
 <kw name="Lists Should Be Equal" owner="Collections">
 <arg>${response.json()['photoUrls']}</arg>
 <arg>${expected_updated_photos}</arg>
 <doc>Fails if given lists are unequal.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.328347" elapsed="0.001000"/>
+<status status="PASS" start="2025-02-02T16:47:39.086529" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[tags][0][id]</arg>
 <arg>${updated_tag_id}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.329347" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.086529" elapsed="0.001000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[tags][0][name]</arg>
 <arg>${updated_tag_name}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.329347" elapsed="0.000999"/>
+<status status="PASS" start="2025-02-02T16:47:39.087529" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[status]</arg>
 <arg>${updated_status}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.330346" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.087529" elapsed="0.001000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
-<msg time="2025-02-02T16:35:58.330346" level="INFO">Argument types are:
+<msg time="2025-02-02T16:47:39.088529" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;class 'str'&gt;</msg>
 <arg>${response.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.330346" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.088529" elapsed="0.000000"/>
 </kw>
 <kw name="Get Pet" owner="SwaggerKeywords">
 <kw name="Create Default Headers" owner="variables">
 <kw name="Create Dictionary" owner="BuiltIn">
-<msg time="2025-02-02T16:35:58.331347" level="INFO">${DEFAULT_HEADERS} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
+<msg time="2025-02-02T16:47:39.088529" level="INFO">${DEFAULT_HEADERS} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
 <var>${DEFAULT_HEADERS}</var>
 <arg>accept=application/json</arg>
 <arg>Content-Type=application/json</arg>
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.331347" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.088529" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${DEFAULT_HEADERS}</value>
-<status status="PASS" start="2025-02-02T16:35:58.331347" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.089529" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:58.331347" level="INFO">${headers} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
+<msg time="2025-02-02T16:47:39.089529" level="INFO">${headers} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
 <var>${headers}</var>
 <doc>Creates default headers dictionary</doc>
-<status status="PASS" start="2025-02-02T16:35:58.331347" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.088529" elapsed="0.001000"/>
 </kw>
 <kw name="Run Keyword And Ignore Error" owner="BuiltIn">
 <kw name="GET" owner="RequestsLibrary">
-<msg time="2025-02-02T16:35:58.923013" level="INFO">GET Request : url=https://petstore.swagger.io/v2/pet/9223372036854775150 
- path_url=/v2/pet/9223372036854775150 
+<msg time="2025-02-02T16:47:39.682489" level="INFO">GET Request : url=https://petstore.swagger.io/v2/pet/9223372036854775291 
+ path_url=/v2/pet/9223372036854775291 
  headers={'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'accept': 'application/json', 'Connection': 'keep-alive', 'Content-Type': 'application/json'} 
  body=None 
  </msg>
-<msg time="2025-02-02T16:35:58.923013" level="INFO">GET Response : url=https://petstore.swagger.io/v2/pet/9223372036854775150 
+<msg time="2025-02-02T16:47:39.682489" level="INFO">GET Response : url=https://petstore.swagger.io/v2/pet/9223372036854775291 
  status=200, reason=OK 
- headers={'Date': 'Sun, 02 Feb 2025 14:35:58 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'} 
- body={"id":9223372036854775150,"category":{"id":74,"name":"FaNPbChbHg"},"name":"FwHlCHxJ","photoUrls":["photo/16","photo/90"],"tags":[{"id":13,"name":"PptkLfPGLCfw"}],"status":"sjGlGTugxD"} 
+ headers={'Date': 'Sun, 02 Feb 2025 14:47:39 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'} 
+ body={"id":9223372036854775291,"category":{"id":29,"name":"nTCPmQqkqI"},"name":"RQnfuXbv","photoUrls":["photo/62","photo/47"],"tags":[{"id":21,"name":"eZSWfxrWoNYd"}],"status":"xplujibFtZ"} 
  </msg>
 <arg>${SWAGGER_BASE_URL}/pet/${PET_ID}</arg>
 <arg>headers=${headers}</arg>
 <doc>Sends a GET request.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.331347" elapsed="0.591666"/>
+<status status="PASS" start="2025-02-02T16:47:39.089529" elapsed="0.592960"/>
 </kw>
-<msg time="2025-02-02T16:35:58.924010" level="INFO">${status} = PASS</msg>
-<msg time="2025-02-02T16:35:58.924010" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<msg time="2025-02-02T16:47:39.682489" level="INFO">${status} = PASS</msg>
+<msg time="2025-02-02T16:47:39.682489" level="INFO">${response} = &lt;Response [200]&gt;</msg>
 <var>${status}</var>
 <var>${response}</var>
 <arg>GET</arg>
 <arg>${SWAGGER_BASE_URL}/pet/${PET_ID}</arg>
 <arg>headers=${headers}</arg>
 <doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.331347" elapsed="0.592663"/>
+<status status="PASS" start="2025-02-02T16:47:39.089529" elapsed="0.592960"/>
 </kw>
 <kw name="Run Keyword If" owner="BuiltIn">
 <kw name="Status Should Be" owner="RequestsLibrary">
 <arg>${expected_status_code}</arg>
 <arg>${response}</arg>
 <doc>Fails if response status code is different than the expected.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.924010" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.683489" elapsed="0.000000"/>
 </kw>
 <arg>'${status}'=='FAIL'</arg>
 <arg>Log To Console</arg>
@@ -671,201 +671,201 @@
 <arg>${expected_status_code}</arg>
 <arg>${response}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.924010" elapsed="0.001001"/>
+<status status="PASS" start="2025-02-02T16:47:39.682489" elapsed="0.001000"/>
 </kw>
 <return>
 <value>${response}</value>
-<status status="PASS" start="2025-02-02T16:35:58.925011" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.683489" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:58.926011" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<msg time="2025-02-02T16:47:39.684491" level="INFO">${response} = &lt;Response [200]&gt;</msg>
 <var>${response}</var>
 <arg>${CREATED_PET_ID}</arg>
 <arg>${expected_status_code}</arg>
-<status status="PASS" start="2025-02-02T16:35:58.330346" elapsed="0.595665"/>
+<status status="PASS" start="2025-02-02T16:47:39.088529" elapsed="0.595962"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${response}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.926011" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.684491" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${response.json()}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.926011" elapsed="0.001117"/>
+<status status="PASS" start="2025-02-02T16:47:39.684491" elapsed="0.001153"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-02-02T16:35:58.927128" level="INFO">${expected_updated_photos} = ['photo/16', 'photo/90']</msg>
+<msg time="2025-02-02T16:47:39.686149" level="INFO">${expected_updated_photos} = ['photo/62', 'photo/47']</msg>
 <var>${expected_updated_photos}</var>
 <arg>json.loads('''${UPDATED_PHOTOS_URL}''')</arg>
 <arg>json</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.927128" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.685644" elapsed="0.000505"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[category][id]</arg>
 <arg>${updated_category_id}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.927128" elapsed="0.001001"/>
+<status status="PASS" start="2025-02-02T16:47:39.686149" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[category][name]</arg>
 <arg>${updated_category_name}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.928129" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.686149" elapsed="0.001039"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()['name']}</arg>
 <arg>${updated_name}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.928129" elapsed="0.000998"/>
+<status status="PASS" start="2025-02-02T16:47:39.687188" elapsed="0.000000"/>
 </kw>
 <kw name="Lists Should Be Equal" owner="Collections">
 <arg>${response.json()['photoUrls']}</arg>
 <arg>${expected_updated_photos}</arg>
 <doc>Fails if given lists are unequal.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.929127" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.687188" elapsed="0.000985"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[tags][0][id]</arg>
 <arg>${updated_tag_id}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.929127" elapsed="0.001000"/>
+<status status="PASS" start="2025-02-02T16:47:39.688173" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[tags][0][name]</arg>
 <arg>${updated_tag_name}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.930127" elapsed="0.001000"/>
+<status status="PASS" start="2025-02-02T16:47:39.689242" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${response.json()}[status]</arg>
 <arg>${updated_status}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.931127" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.689242" elapsed="0.001021"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
-<msg time="2025-02-02T16:35:58.932127" level="INFO">Argument types are:
+<msg time="2025-02-02T16:47:39.690263" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;class 'str'&gt;</msg>
 <arg>${response.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.931127" elapsed="0.001000"/>
+<status status="PASS" start="2025-02-02T16:47:39.690263" elapsed="0.000000"/>
 </kw>
 <kw name="Delete Pet" owner="SwaggerKeywords">
 <kw name="Create Dictionary" owner="BuiltIn">
-<msg time="2025-02-02T16:35:58.932127" level="INFO">${headers} = {'accept': 'application/json', 'api_key': 'special-key'}</msg>
+<msg time="2025-02-02T16:47:39.691262" level="INFO">${headers} = {'accept': 'application/json', 'api_key': 'special-key'}</msg>
 <var>${headers}</var>
 <arg>accept=application/json</arg>
 <arg>api_key=special-key</arg>
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.932127" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:39.691262" elapsed="0.000000"/>
 </kw>
 <kw name="DELETE" owner="RequestsLibrary">
-<msg time="2025-02-02T16:35:59.518264" level="INFO">DELETE Request : url=https://petstore.swagger.io/v2/pet/9223372036854775150 
- path_url=/v2/pet/9223372036854775150 
+<msg time="2025-02-02T16:47:40.307189" level="INFO">DELETE Request : url=https://petstore.swagger.io/v2/pet/9223372036854775291 
+ path_url=/v2/pet/9223372036854775291 
  headers={'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'accept': 'application/json', 'Connection': 'keep-alive', 'api_key': 'special-key', 'Content-Length': '0'} 
  body=None 
  </msg>
-<msg time="2025-02-02T16:35:59.518264" level="INFO">DELETE Response : url=https://petstore.swagger.io/v2/pet/9223372036854775150 
+<msg time="2025-02-02T16:47:40.307189" level="INFO">DELETE Response : url=https://petstore.swagger.io/v2/pet/9223372036854775291 
  status=200, reason=OK 
- headers={'Date': 'Sun, 02 Feb 2025 14:35:59 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'} 
- body={"code":200,"type":"unknown","message":"9223372036854775150"} 
+ headers={'Date': 'Sun, 02 Feb 2025 14:47:40 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'} 
+ body={"code":200,"type":"unknown","message":"9223372036854775291"} 
  </msg>
-<msg time="2025-02-02T16:35:59.518264" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<msg time="2025-02-02T16:47:40.308191" level="INFO">${response} = &lt;Response [200]&gt;</msg>
 <var>${response}</var>
 <arg>${SWAGGER_BASE_URL}/pet/${PET_ID}</arg>
 <arg>headers=${headers}</arg>
 <doc>Sends a DELETE request.</doc>
-<status status="PASS" start="2025-02-02T16:35:58.932127" elapsed="0.586137"/>
+<status status="PASS" start="2025-02-02T16:47:39.691262" elapsed="0.616929"/>
 </kw>
 <kw name="Status Should Be" owner="RequestsLibrary">
 <arg>${expected_status_code}</arg>
 <arg>${response}</arg>
 <doc>Fails if response status code is different than the expected.</doc>
-<status status="PASS" start="2025-02-02T16:35:59.518264" elapsed="0.001019"/>
+<status status="PASS" start="2025-02-02T16:47:40.308191" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${response}</value>
-<status status="PASS" start="2025-02-02T16:35:59.519283" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:40.308191" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:59.519283" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<msg time="2025-02-02T16:47:40.308191" level="INFO">${response} = &lt;Response [200]&gt;</msg>
 <var>${response}</var>
 <arg>${CREATED_PET_ID}</arg>
 <arg>${expected_status_code}</arg>
-<status status="PASS" start="2025-02-02T16:35:58.932127" elapsed="0.587156"/>
+<status status="PASS" start="2025-02-02T16:47:39.690263" elapsed="0.617928"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${response}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:59.520191" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:40.309190" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${response.json()}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:35:59.520191" elapsed="0.001093"/>
+<status status="PASS" start="2025-02-02T16:47:40.309190" elapsed="0.000000"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
-<msg time="2025-02-02T16:35:59.522204" level="INFO">Argument types are:
+<msg time="2025-02-02T16:47:40.310190" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;class 'str'&gt;</msg>
 <arg>${response.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-02-02T16:35:59.521284" elapsed="0.000920"/>
+<status status="PASS" start="2025-02-02T16:47:40.309190" elapsed="0.001000"/>
 </kw>
 <kw name="Get Pet" owner="SwaggerKeywords">
 <kw name="Create Default Headers" owner="variables">
 <kw name="Create Dictionary" owner="BuiltIn">
-<msg time="2025-02-02T16:35:59.522430" level="INFO">${DEFAULT_HEADERS} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
+<msg time="2025-02-02T16:47:40.311190" level="INFO">${DEFAULT_HEADERS} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
 <var>${DEFAULT_HEADERS}</var>
 <arg>accept=application/json</arg>
 <arg>Content-Type=application/json</arg>
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<status status="PASS" start="2025-02-02T16:35:59.522430" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:40.310190" elapsed="0.001000"/>
 </kw>
 <return>
 <value>${DEFAULT_HEADERS}</value>
-<status status="PASS" start="2025-02-02T16:35:59.522430" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:40.311190" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:35:59.522430" level="INFO">${headers} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
+<msg time="2025-02-02T16:47:40.311190" level="INFO">${headers} = {'accept': 'application/json', 'Content-Type': 'application/json'}</msg>
 <var>${headers}</var>
 <doc>Creates default headers dictionary</doc>
-<status status="PASS" start="2025-02-02T16:35:59.522430" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:40.310190" elapsed="0.001000"/>
 </kw>
 <kw name="Run Keyword And Ignore Error" owner="BuiltIn">
 <kw name="GET" owner="RequestsLibrary">
-<msg time="2025-02-02T16:36:00.080891" level="INFO">GET Request : url=https://petstore.swagger.io/v2/pet/9223372036854775150 
- path_url=/v2/pet/9223372036854775150 
+<msg time="2025-02-02T16:47:40.879446" level="INFO">GET Request : url=https://petstore.swagger.io/v2/pet/9223372036854775291 
+ path_url=/v2/pet/9223372036854775291 
  headers={'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'accept': 'application/json', 'Connection': 'keep-alive', 'Content-Type': 'application/json'} 
  body=None 
  </msg>
-<msg time="2025-02-02T16:36:00.080891" level="INFO">GET Response : url=https://petstore.swagger.io/v2/pet/9223372036854775150 
+<msg time="2025-02-02T16:47:40.879446" level="INFO">GET Response : url=https://petstore.swagger.io/v2/pet/9223372036854775291 
  status=404, reason=Not Found 
- headers={'Date': 'Sun, 02 Feb 2025 14:36:00 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'} 
+ headers={'Date': 'Sun, 02 Feb 2025 14:47:40 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'} 
  body={"code":1,"type":"error","message":"Pet not found"} 
  </msg>
-<msg time="2025-02-02T16:36:00.080891" level="FAIL">HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/pet/9223372036854775150</msg>
+<msg time="2025-02-02T16:47:40.879446" level="FAIL">HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/pet/9223372036854775291</msg>
 <arg>${SWAGGER_BASE_URL}/pet/${PET_ID}</arg>
 <arg>headers=${headers}</arg>
 <doc>Sends a GET request.</doc>
-<status status="FAIL" start="2025-02-02T16:35:59.522430" elapsed="0.559711">HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/pet/9223372036854775150</status>
+<status status="FAIL" start="2025-02-02T16:47:40.311190" elapsed="0.570266">HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/pet/9223372036854775291</status>
 </kw>
-<msg time="2025-02-02T16:36:00.083149" level="INFO">${status} = FAIL</msg>
-<msg time="2025-02-02T16:36:00.083149" level="INFO">${response} = HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/pet/9223372036854775150</msg>
+<msg time="2025-02-02T16:47:40.881456" level="INFO">${status} = FAIL</msg>
+<msg time="2025-02-02T16:47:40.881456" level="INFO">${response} = HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/pet/9223372036854775291</msg>
 <var>${status}</var>
 <var>${response}</var>
 <arg>GET</arg>
 <arg>${SWAGGER_BASE_URL}/pet/${PET_ID}</arg>
 <arg>headers=${headers}</arg>
 <doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
-<status status="PASS" start="2025-02-02T16:35:59.522430" elapsed="0.560719"/>
+<status status="PASS" start="2025-02-02T16:47:40.311190" elapsed="0.570266"/>
 </kw>
 <kw name="Run Keyword If" owner="BuiltIn">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Pet not found as expected (404)</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:36:00.083149" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:40.881456" elapsed="0.000000"/>
 </kw>
 <arg>'${status}'=='FAIL'</arg>
 <arg>Log To Console</arg>
@@ -875,26 +875,26 @@
 <arg>${expected_status_code}</arg>
 <arg>${response}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-02-02T16:36:00.083149" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:40.881456" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${response}</value>
-<status status="PASS" start="2025-02-02T16:36:00.083149" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:40.881456" elapsed="0.000000"/>
 </return>
-<msg time="2025-02-02T16:36:00.083149" level="INFO">${response} = HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/pet/9223372036854775150</msg>
+<msg time="2025-02-02T16:47:40.882442" level="INFO">${response} = HTTPError: 404 Client Error: Not Found for url: https://petstore.swagger.io/v2/pet/9223372036854775291</msg>
 <var>${response}</var>
 <arg>${CREATED_PET_ID}</arg>
 <arg>404</arg>
-<status status="PASS" start="2025-02-02T16:35:59.522430" elapsed="0.560719"/>
+<status status="PASS" start="2025-02-02T16:47:40.310190" elapsed="0.572252"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>response in LOG: ${response}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-02T16:36:00.083149" elapsed="0.000000"/>
+<status status="PASS" start="2025-02-02T16:47:40.882442" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2025-02-02T16:35:57.003580" elapsed="3.080569"/>
+<status status="PASS" start="2025-02-02T16:47:37.922045" elapsed="2.960397"/>
 </test>
-<status status="PASS" start="2025-02-02T16:35:56.413147" elapsed="3.671002"/>
+<status status="PASS" start="2025-02-02T16:47:37.362315" elapsed="3.520127"/>
 </suite>
 <statistics>
 <total>
