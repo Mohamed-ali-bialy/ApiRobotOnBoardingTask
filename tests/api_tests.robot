@@ -105,8 +105,8 @@ create and update pet test
 
 
     ${response}    Get Pet    ${CREATED_PET_ID}    404
-    Log to console    REASPONS:${response}
-    Should be equal as strings    ${response.status_code}    404
+    Log to console    response in LOG: ${response}
+    #Should be equal as strings    ${response.status_code}    404
 
     #Log to console    ${response.json()}
 

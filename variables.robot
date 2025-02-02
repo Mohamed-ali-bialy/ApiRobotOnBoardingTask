@@ -1,9 +1,9 @@
 *** Settings ***
-Library    RequestsLibrary
-Library    JSONLibrary
+#Library    RequestsLibrary
+#Library    JSONLibrary
 Library    Collections
 *** Variables ***
-${BASE_URL}       https://petstore.swagger.io/v2
+${SWAGGER_BASE_URL}       https://petstore.swagger.io/v2
 *** Keywords ***
 
 Create Default Headers
