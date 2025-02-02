@@ -1,6 +1,6 @@
 *** Settings ***
-#Library    RequestsLibrary
-#Library    JSONLibrary
+Library    RequestsLibrary
+Library    JSONLibrary
 Library    Collections
 *** Variables ***
 ${SWAGGER_BASE_URL}       https://petstore.swagger.io/v2
